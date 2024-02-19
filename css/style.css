@@ -531,8 +531,7 @@ pre {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px; }
+  padding: 20px;}
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -888,12 +887,7 @@ pre {
   .offset-sm-11 {
     margin-left: 91.66667%; } }
 
-@media (max-width: 499px) {
 
-  #typing-animation {
-    font-size: 18px;
-    }
-}
 @media (min-width: 768px) {
   .col-md {
     -ms-flex-preferred-size: 0;
@@ -9744,3 +9738,11 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    @media (max-width: 499px) {
+
+      #typing-animation {
+        font-size: 18px;
+        }
+    }
